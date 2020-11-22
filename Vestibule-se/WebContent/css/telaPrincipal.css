@@ -1,0 +1,7 @@
+@charset "ISO-8859-1";
+
+@media (min-width: 1900px){
+    .jumbotron.text-center{
+      margin-top: 180px;
+    }
+}

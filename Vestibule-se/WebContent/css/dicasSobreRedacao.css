@@ -1,0 +1,50 @@
+@charset "ISO-8859-1";
+
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+
+overflow: hidden;
+border: 1px solid black;
+background-color: white;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+
+background-color: inherit;
+float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 14px 16px;
+transition: 0.3s;
+font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  color: white;
+background-color: rgb(12, 88, 100);
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  color: white;
+background-color: rgb(12, 88, 100);
+}
+
+/* Style the tab content */
+.tabcontent {
+display: none;
+padding: 6px 12px;
+border: 1px solid black;
+border-top: none;
+}
+
+@media (min-width: 1900px){
+.jumbotron.text-center{
+margin-top: 180px;
+}
+}
